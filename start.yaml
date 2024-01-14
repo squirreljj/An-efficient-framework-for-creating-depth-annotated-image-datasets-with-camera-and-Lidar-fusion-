@@ -1,0 +1,15 @@
+# start.yaml
+
+#1.imgbin_to_png.py
+input_folder: "/mnt/hgfs/share/sensors_data_2023.03.02-16.39.17"
+output_folder: "/home/ljj/work/lidar-cam-calibration/preprocess/data/4-23-2"
+#2.pointcloud_reader.py
+pc_reader_input_path: "/mnt/hgfs/share/sensors_data_2023.03.02-16.39.17/POINTCLOUD2-0/rslidar_points/"
+pc_reader_output_path: "/home/ljj/work/lidar-cam-calibration/preprocess/data/4-23-2/pcd/"
+#3.floam
+pcd_folder: "/home/ljj/work/lidar-cam-calibration/preprocess/data/4-23-2/pcd/"
+pose_map_path: "/home/ljj/work/lidar-cam-calibration/preprocess/data/4-23-2/pose_map.txt"
+#4.pose_transform
+#5.preprocess
+root_folder: "/home/ljj/work/lidar-cam-calibration/preprocess/data/4-23-2"
+delta_pose_path: "/home/ljj/work/lidar-cam-calibration/preprocess/data/4-23-2/pose_scan.txt"
