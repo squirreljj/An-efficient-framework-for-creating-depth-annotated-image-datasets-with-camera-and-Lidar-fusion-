@@ -1,0 +1,17 @@
+%YAML:1.0
+---
+nums:7
+squareSize:0.05
+banzi_row:6
+banzi_col:9
+intrinsics: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [326.7404505628379,0,558.0075033661665,0,326.882966491695,560.1213143835639,0,0,1]
+distortion_coeffs: !!opencv-matrix
+   rows: 1
+   cols: 4
+   dt: d
+   data: [ -0.01620604443950412,-0.00036862178590853586,-0.0015275824846988657,0.00012624166711283183]
+
